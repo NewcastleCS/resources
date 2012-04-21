@@ -1,0 +1,85 @@
+{
+	 "story" : "DogboneIsland",
+	 "chapters" : 
+	 [	 	   
+	     {	
+		 "id" = 1,
+		 "name" : "Intro",
+		 "SetIn" : 1,
+		 "characters" : 
+		 [
+		     {
+			 "CharID" : 1,
+			 "CharcterName" : "Little Ricky",
+			 "CharacterImage" : "littlerick.png"
+		     },
+		     {
+			 "CharID" : 666,
+			 "CharcterName" : "ME",
+			 "CharacterImage" : "GenderPic.png"
+		     }
+		 ],
+		 "dialog" : 
+		 [
+		     {
+			 "from" : 1,
+			 "text":"Hola, te puedo ayudar"
+		     },
+		     {
+			 "from" : 666,
+			 "text":"Sorry, I can't understand you!"
+			 },
+		     {
+			 "from" : 1,
+			 "text":"Ah english, what are you doign this island."
+		     },
+		     {
+			     "from" : 666,
+			     "text":"I am searching for something of great importance, It is hidden somewhere on this island"
+		     }
+		 ],
+		 "nextAction" : "hangman",
+		 "nextActionParams" : "chapter=2"
+	     },
+	     {
+		 "id" = 2,
+		 "name" : "chapter 1",
+		 "SetIn" : 2,
+		 "characters" : 
+		 [
+		     {
+			 "CharID" : 1,
+			 "CharcterName" : "Little Ricky",
+			 "CharacterImage" : "littlerick.png"
+		     },
+		     {
+			 "CharID" : 666,
+			 "CharcterName" : "ME",
+			 "CharacterImage" : "GenderPic.png"
+		     }
+		 ],
+		 "dialog" : 
+		 [
+		     {
+			 "from" : 1,
+			 "text":"Hola, te puedo ayudar"
+		     },
+		     {
+			 "from" : 666,
+			 "text":"Sorry, I can't understand you!"
+		     },
+		     {
+			 "from" : 1,
+			 "text":"Ah english, what are you doign this island."
+		     },
+		     {
+			 "from" : 666,
+			 "text":"I am searching for something of great importance, It is hidden somewhere on this island"
+		     }
+		 ],
+		 "nextAction" : "flashcards",
+		 "nextActionParams" : "chapter=3"
+	     }
+	     
+	 ]
+}
