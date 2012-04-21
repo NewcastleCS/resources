@@ -3,7 +3,7 @@
 	 "chapters" : 
 	 [	 	   
 	     {	
-		 "id" = 1,
+		 "id" : 1,
 		 "name" : "Intro",
 		 "SetIn" : 1,
 		 "characters" : 
@@ -42,7 +42,7 @@
 		 "nextActionParams" : "chapter=2"
 	     },
 	     {
-		 "id" = 2,
+		 "id" : 2,
 		 "name" : "chapter 1",
 		 "SetIn" : 2,
 		 "characters" : 
