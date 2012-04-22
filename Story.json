@@ -10,13 +10,13 @@
 		 [
 		     {
 			 "CharID" : 1,
-			 "CharcterName" : "Little Ricky",
-			 "CharacterImage" : "littlerick.png"
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : "Piratehelper.jpg"
 		     },
 		     {
 			 "CharID" : 666,
-			 "CharcterName" : "ME",
-			 "CharacterImage" : "GenderPic.png"
+			 "CharacterName" : "Me",
+			 "CharacterImage" : "GenderPic.jpg"
 		     }
 		 ],
 		 "dialog" : 
@@ -28,17 +28,37 @@
 		     {
 			 "from" : 666,
 			 "text":"Sorry, I can't understand you!"
-			 },
+		     },
 		     {
 			 "from" : 1,
-			 "text":"Ah english, what are you doign this island."
+			 "text":"Ah english, what are you doing on this island."
 		     },
 		     {
 			     "from" : 666,
 			     "text":"I am searching for something of great importance, It is hidden somewhere on this island"
-		     }
+		     },
+		     {
+			     "from" : 1,
+			     "text":"You won't fare well without being able to speak Spanish."
+		     },
+		     {
+			     "from" : 666,
+			     "text":"So what should I do?"
+		     },
+		     {
+			     "from" : 1,
+			     "text":"Start by talking to some of the locals, they should be able to help you, the village is not far from here."
+		     },
+		     {
+			     "from" : 666,
+			     "text":"Thank you very much for your help."
+		     },
+		     {
+			     "from" : 1,
+			     "text":"No problem, first of all, take this hangman test so you have a small grasp of the language."
+		     },
 		 ],
-		 "nextAction" : "hangman",
+		 "nextAction" : 1,
 		 "nextActionParams" : "chapter=2"
 	     },
 	     {
@@ -48,38 +68,184 @@
 		 "characters" : 
 		 [
 		     {
-			 "CharID" : 1,
-			 "CharcterName" : "Little Ricky",
-			 "CharacterImage" : "littlerick.png"
+			 "CharID" : 3,
+			 "CharacterName" : "Random Villager",
+			 "CharacterImage" : "Randomvillager.jpg"
 		     },
 		     {
 			 "CharID" : 666,
-			 "CharcterName" : "ME",
-			 "CharacterImage" : "GenderPic.png"
-		     }
+			 "CharacterName" : "ME",
+			 "CharacterImage" : "GenderPic.jpg"
+		     },
 		 ],
 		 "dialog" : 
 		 [
 		     {
-			 "from" : 1,
-			 "text":"Hola, te puedo ayudar"
+			 "from" : 666,
+			 "text":"Hola, good sir!"
+		     },
+		     {
+			 "from" : 3,
+			 "text":"Hola, an English traveller? How nice to meet you, welcome to Dogbone Island, or as we say Bienvenido a Dogbone Island."
 		     },
 		     {
 			 "from" : 666,
-			 "text":"Sorry, I can't understand you!"
+			 "text":"I was hoping you would be able to teach me some Spanish words before I set out. Would that be ok?"
 		     },
 		     {
-			 "from" : 1,
-			 "text":"Ah english, what are you doign this island."
+			 "from" : 3,
+			 "text":"No hay problema. First of all you should know that {ranWord} means {ranSynonym}. Got that?"
+		     },
+	 	     {
+			 "from" : 666,
+			 "text":"That is great, what else?"
+		     },
+		     {
+			 "from" : 3,
+			 "text":"Well of course you should know that {ranWord} means {ranSynonym}."
 		     },
 		     {
 			 "from" : 666,
-			 "text":"I am searching for something of great importance, It is hidden somewhere on this island"
-		     }
+			 "text":"I better write that one down. Anything else?"
+		     },
+		     {
+			 "from" : 3,
+			 "text":"Every self respecting traveller should know that {ranWord} means {ranSynonym}."
+		     },
+		     {
+			 "from" : 666,
+			 "text":"That's great I think I should test myself."
+		     },
 		 ],
-		 "nextAction" : "flashcards",
+		 "nextAction" : 2,
 		 "nextActionParams" : "chapter=3"
-	     }
-	     
-	 ]
+	     },
+	     {
+		 "id" : 3,
+		 "name" : "chapter 1 - Guard's Gate",
+		 "SetIn" : 3,
+		 "characters" : 
+		 [
+		     {
+			 "CharID" : 4,
+			 "CharacterName" : "Guard",
+			 "CharacterImage" : "Knight.jpg"
+		     },
+		     {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : "GenderPic.jpg"
+		     },
+		 ],
+		 "dialog" : 
+		 [
+		     {
+			 "from" : 4,
+			 "text":"Buenos días, ¿qué está haciendo aquí"
+		     },
+		     {
+			 "from" : 666,
+			 "text":"Sorry, in English please?"
+		     },
+		     {
+			 "from" : 4,
+			 "text":"Ah, a traveller? Here perhaps to trade? Well you need to speak to Elder Maria. She can help teach you what you need to know to get started."
+		     },
+		     {
+			 "from" : 666,
+			 "text":"My thanks to you, where may I find her?"
+		     },
+		     {
+			 "from" : 4,
+			 "text":"That casa, sorry I mean house over there."
+		     },
+	 	  
+		  ],
+		 "nextAction" : 3,
+		 "nextActionParams" : "chapter=3"
+		},
+
+		{
+		 "id" : 4,
+		 "name" : "chapter 1 - Elder Maria's house",
+		 "SetIn" : 4,
+		 "characters" : 
+		 [
+		     {
+			 "CharID" : 5,
+			 "CharacterName" : "Elder Maria",
+			 "CharacterImage" : "ElderMaria.jpg"
+		     },
+		     {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : "GenderPic.jpg"
+		     },
+		 ],
+		 "dialog" : 
+		 [
+		     {
+			 "from" : 666,
+			 "text":"Hi Elder Maria, my name is {character:name} {character:lastname}, I have travelled in search of-"
+		     },
+		     {
+			 "from" : 5,
+			 "text":"el tesoro perdido? Sorry I mean the lost treasure? Sí Sí, Always fools such as yourself searching for it, with no knowledge of the perils, this ilsand or even the language. So you've come here to beg supplies, a place to start and someone to teach the language - eh?"
+		     },
+		     {
+			 "from" : 666,
+			 "text":"Uh, it's not like that! The stranger on the beach...The guard..."
+		     },
+		     {
+			 "from" : 5,
+			 "text":"Ah, they sent you here? Always pawning off responsibility off onto someone else. Well, come in; if someone doesn't take pity on you and teach you the basics, you'll be killed soon enough."
+		     },
+		     {
+			 "from" : 666,
+			 "text":"Great. What can topic can you teach me about?"
+		     },
+		     {
+			 "from" : 5,
+			 "text":"It would be useless to just teach you one topic, instead I'll give you a selection to get you by in everday life."
+		     },
+		     {
+			 "from" : 666,
+			 "text":"Excelente!"
+		     },
+		     {
+			 "from" : 5,
+			 "text":"First of all you need to know {ranWord} which means {ranSynonym}. Will you remeber that?"
+		     },
+		     {
+			 "from" : 666,
+			 "text":"Yes, I mean Sí."
+		     },
+		     {
+			 "from" : 5,
+			 "text":"Bueno. Now, you definitely need to remember that {ranWord} which means {ranSynonym}."
+		     },
+		     {
+			 "from" : 666,
+			 "text":"That makes sense, I'm getting the hang of this. What else?"
+		     },
+		     {
+			 "from" : 5,
+			 "text":"Finally you should remember that {ranWord} which means {ranSynonym}, remember that and you will go far!"
+		     },
+		     {
+			 "from" :666,
+			 "text":"Thanks a lot Elder Maria, you're a great lady, I mean grand dama."
+		     },
+		     {
+			 "from" :5,
+			 "text":"Now that you know the basics, you must put them into practice, you must acquaint yourself with the others of this village and collect all these items. Here is some money, remember to reward me when you find the treasure!"
+		     },
+		     {
+			 "from" :666,
+			 "text":"Thank you Maria, or should I say 'gracias'"
+		     },
+
+		 ]
+		}
+		]
 }

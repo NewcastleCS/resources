@@ -1,0 +1,16 @@
+Characters:
+	1. Pirate Helper
+	666. Me
+	3. Random villager
+	4. Guard/Knight
+	5. Elder Maria
+Games:
+	1. Hangman
+	2. Flashcards
+	3. Anagrams
+
+Pulled words:
+	{ranWord} = pulled word
+	{ranSynonym} = English word
+
+
