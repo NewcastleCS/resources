@@ -5,7 +5,7 @@
 	     {	
 		 "id" : 1,
 		 "name" : "Intro",
-		 "SetIn" : 2130837535,
+		 "SetIn" : 0x7f02001f,
 		 "characters" : 
 		 [
 		     {
@@ -16,7 +16,7 @@
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "Me",
-			 "CharacterImage" : 2130837507
+			 "CharacterImage" : 0x7f020003
 		     }
 		 ],
 		 "dialog" : 
