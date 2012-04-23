@@ -11,12 +11,12 @@
 		     {
 			 "CharID" : 1,
 			 "CharacterName" : "Pirate Helper",
-			 "CharacterImage" : "Piratehelper.jpg"
+			 "CharacterImage" : 2130837517
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "Me",
-			 "CharacterImage" : "GenderPic.jpg"
+			 "CharacterImage" : 2 130 837 504
 		     }
 		 ],
 		 "dialog" : 
@@ -70,12 +70,12 @@
 		     {
 			 "CharID" : 3,
 			 "CharacterName" : "Random Villager",
-			 "CharacterImage" : "Randomvillager.jpg"
+			 "CharacterImage" : 2130837517
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : "GenderPic.jpg"
+			 "CharacterImage" : 2130837505
 		     },
 		 ],
 		 "dialog" : 
@@ -129,12 +129,12 @@
 		     {
 			 "CharID" : 4,
 			 "CharacterName" : "Guard",
-			 "CharacterImage" : "Knight.jpg"
+			 "CharacterImage" : 2130837517
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : "GenderPic.jpg"
+			 "CharacterImage" : 2130837505
 		     },
 		 ],
 		 "dialog" : 
@@ -174,12 +174,12 @@
 		     {
 			 "CharID" : 5,
 			 "CharacterName" : "Elder Maria",
-			 "CharacterImage" : "ElderMaria.jpg"
+			 "CharacterImage" : 2130837517
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : "GenderPic.jpg"
+			 "CharacterImage" : 2130837505
 		     },
 		 ],
 		 "dialog" : 
