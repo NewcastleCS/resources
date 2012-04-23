@@ -1,6 +1,5 @@
 # String formatting for the story
 {word:word} 
-
 {word:definition}
 {word:sampleuse}
 {word:synonym}
