@@ -59,23 +59,23 @@
 		     },
 		 ],
 		 "nextAction" : 1,
-		 "nextActionParams" : "chapter=2"
+		 "nextActionParams" : 2
 	     },
 	     {
 		 "id" : 2,
 		 "name" : "chapter 1",
-		 "SetIn" : 2,
+		 "SetIn" : 0x7f02001c,
 		 "characters" : 
 		 [
 		     {
 			 "CharID" : 3,
 			 "CharacterName" : "Random Villager",
-			 "CharacterImage" : 2130837517
+			 "CharacterImage" : 0x7f020006
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : 2130837505
+			 "CharacterImage" : 0x7f020009
 		     },
 		 ],
 		 "dialog" : 
@@ -118,23 +118,23 @@
 		     },
 		 ],
 		 "nextAction" : 2,
-		 "nextActionParams" : "chapter=3"
+		 "nextActionParams" : 3
 	     },
 	     {
 		 "id" : 3,
 		 "name" : "chapter 1 - Guard's Gate",
-		 "SetIn" : 3,
+		 "SetIn" : 0x7f02001b,
 		 "characters" : 
 		 [
 		     {
 			 "CharID" : 4,
 			 "CharacterName" : "Guard",
-			 "CharacterImage" : 2130837517
+			 "CharacterImage" : 0x7f02001a
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : 2130837505
+			 "CharacterImage" : 0x7f020003
 		     },
 		 ],
 		 "dialog" : 
@@ -162,24 +162,24 @@
 	 	  
 		  ],
 		 "nextAction" : 3,
-		 "nextActionParams" : "chapter=3"
+		 "nextActionParams" : 3
 		},
 
 		{
 		 "id" : 4,
 		 "name" : "chapter 1 - Elder Maria's house",
-		 "SetIn" : 4,
+		 "SetIn" : 0x7f020007,
 		 "characters" : 
 		 [
 		     {
 			 "CharID" : 5,
 			 "CharacterName" : "Elder Maria",
-			 "CharacterImage" : 2130837517
+			 "CharacterImage" : 0x7f020006
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : 2130837505
+			 "CharacterImage" : 0x7f020003
 		     },
 		 ],
 		 "dialog" : 
