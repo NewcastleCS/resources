@@ -35,7 +35,7 @@
 		     },
 		     {
 			     "from" : 666,
-			     "text":"Hi, my name is {character:firstname} I am searching for something of great importance, It is hidden somewhere on this island"
+			     "text":"Hi, my name is {character:firstname} <character:firstname> I am searching for something of great importance, It is hidden somewhere on this island"
 		     },
 		     {
 			     "from" : 1,
