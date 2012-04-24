@@ -35,7 +35,7 @@
 		     },
 		     {
 			     "from" : 666,
-			     "text":"Hi, my name is @character:firstname I am searching for something of great importance, It is hidden somewhere on this island"
+			     "text":"Hi, my name is {character:firstname} I am searching for something of great importance, It is hidden somewhere on this island"
 		     },
 		     {
 			     "from" : 1,
@@ -94,7 +94,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"No hay problema. First of all you should know that @word:word means @word:synonym . Got that?"
+			 "text":"No hay problema. First of all you should know that {word:word} means {word:synonym} . Got that?"
 		     },
 	 	     {
 			 "from" : 666,
@@ -102,7 +102,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"Well of course you should know that {ranWord} means {ranSynonym}."
+			 "text":"Well of course you should know that {word:word} means {word:synonym}."
 		     },
 		     {
 			 "from" : 666,
@@ -110,7 +110,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"Every self respecting traveller should know that {ranWord} means {ranSynonym}."
+			 "text":"Every self respecting traveller should know that {word:word} means {word:synonym}."
 		     },
 		     {
 			 "from" : 666,
