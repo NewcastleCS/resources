@@ -1187,7 +1187,8 @@
 			 "text" : "Just watch me!"
 		    },
 		]
-		"nextAction" : 3,		
+		"nextAction" : 3,
+		"nextActionParams" : -99
 		}
 	]
 }
