@@ -1,17 +1,17 @@
 {
-	 "story" : "DogboneIsland",
+	"story" : "DogboneIsland",
 	 "chapters" : 
 	 [	 	   
 	     {	
 		 "id" : 1,
 		 "name" : "Intro",
-		 "SetIn" : 0x7f02001c,
+		 "SetIn" : 0x7f02001f,
 		 "characters" : 
 		 [
 		     {
 			 "CharID" : 1,
 			 "CharacterName" : "Pirate Helper",
-			 "CharacterImage" : 0x7f020013
+			 "CharacterImage" : 0x7f020018
 		     },
 		     {
 			 "CharID" : 666,
@@ -23,7 +23,7 @@
 		 [
 		     {
 			 "from" : 1,
-			 "text":"Hola, te puedo ayudar"
+			 "text":"Hola, te puedo ayudar?"
 		     },
 		     {
 			 "from" : 666,
@@ -34,28 +34,28 @@
 			 "text":"Ah english, what are you doing on this island."
 		     },
 		     {
-			     "from" : 666,
-			     "text":"Hi, my name is {character:firstname} <character:firstname> I am searching for something of great importance, It is hidden somewhere on this island"
+			 "from" : 666,
+			 "text":"I am searching for something of great importance, It is hidden somewhere on this island"
 		     },
 		     {
-			     "from" : 1,
-			     "text":"You won't fare well without being able to speak Spanish."
+			 "from" : 1,
+			 "text":"You won't fare well without being able to speak Spanish."
 		     },
 		     {
-			     "from" : 666,
-			     "text":"So what should I do?"
+			 "from" : 666,
+			 "text":"So what should I do?"
 		     },
 		     {
-			     "from" : 1,
-			     "text":"Start by talking to some of the locals, they should be able to help you, the village is not far from here."
+			 "from" : 1,
+			 "text":"Start by talking to some of the locals, they should be able to help you, the village is not far from here."
 		     },
 		     {
-			     "from" : 666,
-			     "text":"Thank you very much for your help."
+			 "from" : 666,
+			 "text":"Thank you very much for your help."
 		     },
 		     {
-			     "from" : 1,
-			     "text":"No problem, first of all, take this hangman test so you have a small grasp of the language."
+			 "from" : 1,
+			 "text":"No problem, first of all, take this hangman test so you have a small grasp of the language."
 		     },
 		 ],
 		 "nextAction" : 1,
@@ -64,18 +64,18 @@
 	     {
 		 "id" : 2,
 		 "name" : "chapter 1",
-		 "SetIn" : 0x7f02001c,
+		 "SetIn" : 0x7f02001e,
 		 "characters" : 
 		 [
 		     {
 			 "CharID" : 3,
 			 "CharacterName" : "Random Villager",
-			 "CharacterImage" : 0x7f020006
+			 "CharacterImage" : 0x7f020013
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : 0x7f020009
+			 "CharacterImage" : 0x7f020003
 		     },
 		 ],
 		 "dialog" : 
@@ -94,7 +94,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"No hay problema. First of all you should know that {word:word} means {word:synonym} . Got that?"
+			 "text":"No hay problema. First of all you should know that {ranWord} means {ranSynonym}. Got that?"
 		     },
 	 	     {
 			 "from" : 666,
@@ -102,7 +102,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"Well of course you should know that {word:word} means {word:synonym}."
+			 "text":"Well of course you should know that {ranWord} means {ranSynonym}."
 		     },
 		     {
 			 "from" : 666,
@@ -110,7 +110,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"Every self respecting traveller should know that {word:word} means {word:synonym}."
+			 "text":"Every self respecting traveller should know that {ranWord} means {ranSynonym}."
 		     },
 		     {
 			 "from" : 666,
@@ -129,12 +129,12 @@
 		     {
 			 "CharID" : 4,
 			 "CharacterName" : "Guard",
-			 "CharacterImage" : 0x7f02001a
+			 "CharacterImage" : 0x7f020015
 		     },
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : 0x7f020003
+			"CharacterImage" : 0x7f020003
 		     },
 		 ],
 		 "dialog" : 
@@ -161,14 +161,13 @@
 		     },
 	 	  
 		  ],
-		 "nextAction" : 3,
-		 "nextActionParams" : 3
+		 "nextActionParams" : 4
 		},
 
 		{
 		 "id" : 4,
 		 "name" : "chapter 1 - Elder Maria's house",
-		 "SetIn" : 0x7f020007,
+		 "SetIn" 0x7f020007,
 		 "characters" : 
 		 [
 		     {
@@ -179,7 +178,7 @@
 		     {
 			 "CharID" : 666,
 			 "CharacterName" : "ME",
-			 "CharacterImage" : 0x7f020003
+			"CharacterImage" : 0x7f020003
 		     },
 		 ],
 		 "dialog" : 
@@ -190,7 +189,7 @@
 		     },
 		     {
 			 "from" : 5,
-			 "text":"el tesoro perdido? Sorry I mean the lost treasure? Sí Sí, Always fools such as yourself searching for it, with no knowledge of the perils, this ilsand or even the language. So you've come here to beg supplies, a place to start and someone to teach the language - eh?"
+			 "text":"el tesoro perdido? Sorry I mean the lost treasure? Sí Sí, Always fools such as yourself searching for it, with no knowledge of the perils, this island or even the language. So you've come here to beg supplies, a place to start and someone to teach the language - eh?"
 		     },
 		     {
 			 "from" : 666,
@@ -233,19 +232,952 @@
 			 "text":"Finally you should remember that {ranWord} which means {ranSynonym}, remember that and you will go far!"
 		     },
 		     {
-			 "from" :666,
+			 "from" : 666,
 			 "text":"Thanks a lot Elder Maria, you're a great lady, I mean grand dama."
 		     },
 		     {
-			 "from" :5,
-			 "text":"Now that you know the basics, you must put them into practice, you must acquaint yourself with the others of this village and collect all these items. Here is some money, remember to reward me when you find the treasure!"
+			 "from" : 5,
+			 "text":"Now that you know the basics, you must put them into practice, you must acquaint yourself with the others of this village and collect all these items; un sombrero from Adrian and un pato from Rico. Remember to reward me when you find the treasure!"
 		     },
 		     {
-			 "from" :666,
+			 "from" : 666,
 			 "text":"Thank you Maria, or should I say 'gracias'"
 		     },
-
 		 ]
-		}
+		"nextActionParams" : 5
+		},
+		{
+		 "id" : 5,
+		 "name" : "chapter 1 - Talk with Adrian",
+		 "SetIn" : 0x7f02001e,
+		 "characters" : 
+		 [
+		     {
+			 "CharID" : 6,
+			 "CharacterName" : "Adrian",
+			 "CharacterImage" : 0x7f020000
+		     },
+		     {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		     },
+		 ],
+		 "dialog" : 
+		 [
+		     {
+			 "from" : 666,
+			 "text" : "Hola Adrian, I would like to purchase un sombrero from you please."
+		     },
+		     {
+			 "from" : 6,
+			 "text" : "Hola, my last sombrero? I won't give it away easily now, you must prove you're worthy and that you will use it for a good cause."
+		     },
+		     {
+			 "from" : 666,
+			 "text" : "I'm on a quest which is more than worth it, I'll do anything for it!"
+		     },
+		     {
+			 "from" : 6,
+			 "text" : "Anything? Well if you complete this ancient spanish puzzle then I will give you my Sombrero and let you proceed to Adrian."
+		     },
+                 ]
+		 "nextAction" : 2,
+		 "nextActionParams" : 6
+		 }
+		 {
+		 "id" : 6,
+		 "name" : "chapter 1 - Talk with Rico",
+		 "SetIn" : FORGE!,
+		 "characters" : 
+		 [
+		     {
+			 "CharID" : 7,
+			 "CharacterName" : "Rico",
+			 "CharacterImage" : 0x7f02001a
+		     },
+		     {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		     },
+		 ],
+		 "dialog" : 
+		 [
+		     {
+			 "from" : 7,
+			 "text" : "Hola, Le puedo ayudar en algo?"
+		     },
+		     {
+			 "from" : 666,
+			 "text" : "How...can you help me?"
+		    },
+		    {
+			 "from" : 7,
+			 "text" : "Si. English? I hope you're Spanish will improve if you wish to get by on this island."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Well I'm looking for 'un pato' and I was told to come to you."
+		    },
+		    {
+			 "from" : 7,
+			 "text" : "You've come to the right man, however you'll need to prove to me that your Spanish is up to standard."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "I'm getting a lot of practice at these games now, so bring it on!"
+		    },
 		]
+		"nextAction" : 1,
+		"nextActionParams" 7
+		},
+		{
+		 "id" : 7,
+		 "name" : "chapter 1 - Elder Maria's home",
+		  "SetIn" 0x7f020007,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 5,
+			 "CharacterName" : "Elder Maria",
+			 "CharacterImage" : 0x7f020006
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "Maria I have done as you have asked and passed the tests set to me, can you suggest where to continue on the quest?"
+		    },
+		    {
+			 "from" : 5,
+			 "text" : "Of course, east of the village, into the Island proper. But first let me test that the others have trusted you correctly."
+		    },
+		]
+		"nextAction" : 3,
+		"nextActionParams" : 8
+		}
+
+		{
+		 "id" : 8,
+		 "name" : "chapter 2 - Guard",
+		 "SetIn" : 0x7f02001b,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 8,
+			 "CharacterName" : "Guard",
+			 "CharacterImage" : 0x7f02001b
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		   {
+			 "from" : 8,
+			 "text" : "Hola, I can't just let anyone cross this puente, you must beat me by completing this game or else you must turn back, do you understand?"
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Another game? What is wrong with people on this Island. Can you give me any hints? My Spanish is quite rusty."
+		    },
+		    {
+			 "from" : 8,
+			 "text" : "You may need to know that {ranWord} means {ranSynonym}"
+		    }
+		    {
+			 "from" : 666,
+			 "text" : "I'll write that one down in my libro. Anything else?"
+		    }
+			{
+			 "from" : 8,
+			 "text" : "Anything else? Thats just the beginning but since you're so arrogant, I'll only tell you that {ranWord} means {ranSynonym} and now you must play this game."
+		    }
+		]
+		"nextAction" : 1,
+		"nextActionParams" : 9
+		},
+		{
+		 "id" : 9,
+		 "name" : "chapter 2 - Helper",
+		 "SetIn" : 0x7f02001d,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 9,
+			 "CharacterName" : "Helper2",
+			 "CharacterImage" : 0x7f020013
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 9,
+			 "text" : "Hola, I'm you're friendly neighbourhood helper, you're coming up to a crossroads where one way will end in death and the other in riches. Make sure you choose wisely."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Hola, is nothing easy on this island? Do you have any ideas to help me?"
+		    },
+		    {
+			 "from" : 9,
+			 "text" : "I have an idea but you're Spanish is needing in improvement, remember that {ranWord} means {ranSynonym}"
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "muchas gracias"
+		    },
+		]
+		"nextAction" : 2,
+		"nextActionParams" : 10
+		}
+		{
+		 "id" : 10,
+		 "name" : "chapter 2 - Cave",
+		 "SetIn" : 0x7f02001c,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 10,
+			 "CharacterName" : "Bandit",
+			 "CharacterImage" : 0x7f020002
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "Looks like I went the correct way, this cave must contain some clues on the treasure."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "I wonder what this seal is? It must be of some importance"
+		    },
+		    {
+			 "from" : 10,
+			 "text" : "Detener! That seal belongs to me, you must beat me in a game to continue or you must hand it over right now."
+		    },
+		]
+		"nextAction" : 1,
+		"nextActionParams" : 11
+		}
+		{
+		 "id" : 11,
+		 "name" : "chapter 3 - Talk with Helper",
+		  "SetIn" : 0x7f02001e,
+		 "characters" : 
+		[
+		     {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		     },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "So now I have the first piece of the seal. Any idea where I can look for the second?"
+		    },
+		    {
+			 "from" : 1,
+			 "text" : "Well now, let me think...Perhaps Old Smee, he was always on the lookout for odd trinkets. Maybe not though."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "What, why? That sounds like a great lead!"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Ah, it's just the last I heard of Old Smee, he'd run into a spot of trouble with some local bandits."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Never mind that, finding the treasure is more important, lets go talk to him."
+		    },
+		]
+		"nextActionParams" : 12
+		}
+		{
+		 "id" : 12,
+		 "name" : "chapter 3 - Finding old Smee",
+		 "SetIn" : OLD SMEE'S,
+		 "characters" : 
+		[
+		     {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		     },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "Is that them over there??"
+		    },
+		    {
+			 "from" : 1,
+			 "text" : "Oh NO! Thats Old Smee and it looks like thos Bandits are about to finish him off."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "We must stop them, it's my only hope."
+		    },
+		]
+		"nextActionParams" : 13
+		}
+		{
+		 "id" : 13,
+		 "name" : "chapter 3 - Battle to save Old Smee",
+		 "SetIn" : Old Smee's,
+		 "characters" : 
+		[
+		     {
+			 "CharID" : 10,
+			 "CharacterName" : "Bandit",
+			 "CharacterImage" : 0x7f020002
+		     },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "Detener! I need to talk to that man."
+		    },
+		    {
+			 "from" : 1,
+			 "text" : "Detener? Haha you are too late little child, we will kill him and you!"
+		    },
+		]	
+		"nextAction" : 1,
+		"nextActionParams" : 14
+		}
+		{
+		 "id" : 14,
+		 "name" : "chapter 3 - Talking to Old Smee",
+		 "SetIn" : Old Smee's,
+		 "characters" : 
+		[
+		     {
+			 "CharID" : 11,
+			 "CharacterName" : "Old Smee",
+			 "CharacterImage" : 0x7f020017
+		     },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 11,
+			 "text" : "Phew, that was close, muchas gracias."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "My name is {character:firstname} <character:firstname>, this is my helper. I'm on the fabled quest for treasure..."
+		    },
+			{
+			 "from" : 11,
+			 "text" : "And you're looking for the seals?"
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Sí."
+		    },
+			{
+			 "from" : 11,
+			 "text" : "Well you are in luck, I know of a cave said to contain what you seek, it is likely booby-trapped, you must be wary."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "How do I get there?."
+		    },
+			{
+			 "from" : 11,
+			 "text" : "Head towards the beach, when you see a cavern on your left you will have reached your destination."
+		    },
+		]	
+		"nextActionParams" : 15
+		}
+		{
+		 "id" : 15,
+		 "name" : "chapter 3 - Booby trapped cave",
+		 "SetIn" : 0x7f02001c,
+		 "characters" : 
+		[
+		     {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		     },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 1,
+			 "text" : "I can see the seal, it's right there."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "It's all a little bit too easy though."
+		    },
+			{
+			 "from" : 11,
+			 "text" : "What is this? Some box with an mixed up words."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Ah give it to me, I'll put my knowledge to good use."
+		    },
+		]	
+		"nextAction" : 3,
+		"nextActionParams" : 16
+		}
+		{
+		 "id" : 16,
+		 "name" : "chapter 3 - Booby trapped cave cont.",
+		 "SetIn" : 0x7f02001c,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 1,
+			 "text" : "Perfecto!"
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "What should we do now? Two seals down and still two to go"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "I know someone who can help guide us in the right direction. I think he lives not too far from here."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Lets go there."
+		    },
+		]	
+		"nextActionParams" : 17
+		}	
+		{
+		 "id" : 17,
+		 "name" : "chapter 4 - Little Ricky's house",
+		 "SetIn" : Little Rickys House,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 1,
+			 "text" : "Oh my, it looks like Little Ricky has crossed the same fate as Old Smee and is about to be killed by the Bandits!"
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "*sigh*"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "You know what to do!"
+		    },
+
+		]
+		"nextAction" : 2,	
+		"nextActionParams" : 18
+		}
+		{
+		 "id" : 18,
+		 "name" : "chapter 4 - Little Ricky's house",
+		 "SetIn" : Little Rickys house,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 12,
+			 "CharacterName" : "Little Ricky",
+			 "CharacterImage" : 0x7f020016
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "Phew, looks like I got to you just in time!"
+		    },
+		    {
+			 "from" : 12,
+			 "text" : "Gracias señor, I'm guessing you want the same as the Bandits...more information on the Seals."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "That would be perfecto! Hopefully in a more civilised manner than your previous guests"
+		    },
+		    {
+			 "from" : 12,
+			 "text" : "The only part I know about is in a creek not far from here, follow the road sur, you can't miss it."
+		    },
+
+		]	
+		"nextActionParams" : 19
+		}
+		{
+		 "id" : 19,
+		 "name" : "chapter 5 - Creek for third part of seal",
+		 "SetIn" : CREEK,
+		 "characters" : 
+		[
+		     {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		     },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 1,
+			 "text" : "It looks like the same sort of puzzle must be solved to get this seal "
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Excelente!"
+		    },
+		
+		]
+		"nextAction" : 3,		
+		"nextActionParams" : 20
+		}
+		{
+		 "id" : 20,
+		 "name" : "chapter 4 - Lead up to Bandits Lair",
+		 "SetIn" : CREEK,
+		 "characters" : 
+		[
+		     {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		     },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "We're so close! Just the final piece of the seal remains."
+		    },
+		    {
+			 "from" : 1,
+			 "text" : "I daresay we might actually be able to do this! Not that I ever doubted you, ofcourse..."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Nevermind that now, how do we find the last piece."
+		    },
+		    {
+			 "from" : 1,
+			 "text" : "The last bandit you fought mentioned that we were too late, maybe that has something to do with it."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Excelente thinking Helper! My Spanish senses are tingling, lets investigate the Bandit hideout, any idea where it could be?"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "I would advise speaking to Rico, his past was somewhat...emocionante?"
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Emocionante?"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "How you say...exiting."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Sounds like a great place to start, lets go!"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Now, now, before you go, just remember that {word:word} means {word:synonym}"
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Got it, and {word:word} means {word:synonym}, right?"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Correcta."
+		    },			
+		]		
+		"nextActionParams" : 21
+		}
+		{
+		 "id" : 21,
+		 "name" : "chapter 4 - Ricos forge",
+		 "SetIn" : FORGE,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "Oh my is that Rico?"
+		    },
+		    {
+			 "from" : 1,
+			 "text" : "We are too late, look at him {character:name}! The bandits have covered their tracks."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Wait, this looks like an emergency medical kit, although I'm not sure how to open it."
+		    },
+		    {
+			 "from" : 1,
+			 "text" : "Ah, I know this one, it looks like one of the ones that you must solve a hangman puzzle to open."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "What is the point in that? Surely that is the worst idea I've ever heard."
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Just do the puzzle."
+		    },		
+		]
+		"nextAction" : 1,				
+		"nextActionParams" : 22
+		}
+		{
+		 "id" : 22,
+		 "name" : "chapter 4 - Ricos forge",
+		 "SetIn" : FORGE,
+		 "characters" : 
+		[
+		     {
+			 "CharID" : 7,
+			 "CharacterName" : "Rico",
+			 "CharacterImage" : 0x7f02001a
+		     },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 7,
+			 "text" : "Gracias señor."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "No problema."
+		    },
+		    {
+			 "from" : 7,
+			 "text" : "Is there any way I could repay you?"
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Only one way Rico, I need to know the whereabouts of the bandits hideout."
+		    },
+		    {
+			 "from" : 7,
+			 "text" : "But thats dangerous!"
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Please Rico, I need to find the treasure before they do."
+		    },
+			{
+			 "from" : 7,
+			 "text" : "If you're sure, follow the road west, if you meet the crazy vieja, tell her that her hijo says hola."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Gracias."
+		    },				
+		]
+		"nextActionParams" : "chapter=23"
+		}
+		{
+		 "id" : 23,
+		 "name" : "chapter 5 - Bandits hideout inside",
+		 "SetIn" : INSIDE BANDITS HOUSE,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+			{
+			 "from" : 1,
+			 "text" : "It seems odd that they left this place unlocked with no one on guard."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Their stupidity amuses me. We'll need to start looking and hope we get lucky."
+		    },
+			{
+			 "from" : 1,
+			 "text" : "While we search you'll need to know some more words to get by here."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Good idea."
+		    },
+			{
+			 "from" : 1,
+			 "text" : "{word:word} means {word:synonym}, remember that."
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Also, {word:word} means {word:synonym}, that's a useful one."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Right, I've written those ones down. Wait! What's this...a locked chest?"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "And another puzzle to open it up? Do you think you'll be able to solve it?"
+		    },
+			{
+			 "from" : 666,
+			 "text" : "I'll have too!"
+		    },
+		]
+		"nextActionParams" : 25
+		"nextAction" : 2,		
+		}
+		{
+		 "id" : 25,
+		 "name" : "chapter 5 - Bandits hideout inside",
+		 "SetIn" : INSIDE BANDITS HOUSE,
+		 "characters" : 
+		[
+		    {
+			"CharID" : 10,
+			 "CharacterName" : "Bandit",
+			 "CharacterImage" : 0x7f020002
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			"CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "éxito! We have all the pieces of the seal, now to escape and assemble the pieces."
+		    },
+		    {
+			 "from" : 10,
+			 "text" : "Not so fast, you thk we'd have left our camp unguarded? We hid! and LET you enter and find our piece, now you have brought the rest to us!"
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Grrr! I should have known."
+		    },
+			{
+			 "from" : 10,
+			 "text" : "We will let you go if you can solve this, but knowing your grasp of the language you have no chance."
+		    },
+		]
+		"nextActionParams" : 26
+		"nextAction" : 1,		
+		}
+		{
+		 "id" : 26,
+		 "name" : "chapter 5 - Bandits hideout inside",
+		 "SetIn" : INSIDE BANDITS HOUSE,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 1,
+			 "text" : "Well done, now that you have beaten him we should assemble all the pieces."
+		    },
+		    {
+			 "from" : 666,
+			 "text" : "Wow, it's all so simple, it says something about {word:word} which means {word:synonym} right?"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Sí, also remember {word:word} which means {word:synonym}."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "Great, lets go find the treasure!"
+		    },
+		]
+		"nextActionParams" : 27
+		}
+		{
+		 "id" : 27,
+		 "name" : "chapter 6 - Found the treasure, battle over who gets it.",
+		 "SetIn" : FIELD WITH HOLE IN GROUND,
+		 "characters" : 
+		[
+		    {
+			 "CharID" : 1,
+			 "CharacterName" : "Pirate Helper",
+			 "CharacterImage" : 0x7f020018
+		    },
+		    {
+			 "CharID" : 666,
+			 "CharacterName" : "ME",
+			 "CharacterImage" : 0x7f020003
+		    },
+		],
+		 "dialog" : 
+		[
+		    {
+			 "from" : 666,
+			 "text" : "Finally we have found it."
+		    },
+		    {
+			 "from" : 1,
+			 "text" : "Yes, after all this time you have found what I've been looking for my whole life."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "What are you talking about? This is my family's treasure."
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Don't be foolish, your family stole it from the island."
+		    },
+			{
+			 "from" : 666,
+			 "text" : "This treasure belongs to my family. I'm not going to leave here without it."
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Then I have no choice. Your time will have to come to an end. You can't beat me at my own language!"
+		    },
+			{
+			 "from" : 1,
+			 "text" : "Just watch me!"
+		    },
+		]
+		"nextAction" : 3,		
+		}
+	]
 }
