@@ -161,14 +161,13 @@
 		     },
 	 	  
 		  ],
-		 "nextAction" : 2,
 		 "nextActionParams" : 4
 		},
 
 		{
 		 "id" : 4,
 		 "name" : "chapter 1 - Elder Maria's house",
-		 "SetIn" 0x7f020007,
+		 "SetIn" : 0x7f020007,
 		 "characters" : 
 		 [
 		     {
@@ -245,7 +244,6 @@
 			 "text":"Thank you Maria, or should I say 'gracias'"
 		     },
 		 ]
-		"nextAction" : 2,
 		"nextActionParams" : 5
 		},
 		{
@@ -290,7 +288,7 @@
 		 {
 		 "id" : 6,
 		 "name" : "chapter 1 - Talk with Rico",
-		 "SetIn" : FORGE!,
+		 "SetIn" : -1,
 		 "characters" : 
 		 [
 		     {
@@ -337,7 +335,7 @@
 		{
 		 "id" : 7,
 		 "name" : "chapter 1 - Elder Maria's home",
-		  "SetIn" 0x7f020007,
+		  "SetIn": 0x7f020007,
 		 "characters" : 
 		[
 		    {
@@ -523,7 +521,6 @@
 			 "text" : "Never mind that, finding the treasure is more important, lets go talk to him."
 		    },
 		]
-		"nextAction" : 2,
 		"nextActionParams" : 12
 		}
 		{
@@ -558,7 +555,6 @@
 			 "text" : "We must stop them, it's my only hope."
 		    },
 		]
-		"nextAction" : 2,
 		"nextActionParams" : 13
 		}
 		{
@@ -639,8 +635,7 @@
 			 "from" : 11,
 			 "text" : "Head towards the beach, when you see a cavern on your left you will have reached your destination."
 		    },
-		]
-		"nextAction" : 2,
+		]	
 		"nextActionParams" : 15
 		}
 		{
@@ -717,8 +712,7 @@
 			 "from" : 666,
 			 "text" : "Lets go there."
 		    },
-		]
-		"nextAction" : 2,
+		]	
 		"nextActionParams" : 17
 		}	
 		{
@@ -793,8 +787,7 @@
 			 "text" : "The only part I know about is in a creek not far from here, follow the road sur, you can't miss it."
 		    },
 
-		]
-		"nextAction" : 2,
+		]	
 		"nextActionParams" : 19
 		}
 		{
@@ -896,8 +889,7 @@
 			 "from" : 1,
 			 "text" : "Correcta."
 		    },			
-		]
-		"nextAction" : 2,
+		]		
 		"nextActionParams" : 21
 		}
 		{
@@ -999,7 +991,6 @@
 			 "text" : "Gracias."
 		    },				
 		]
-		"nextAction" : 2,
 		"nextActionParams" : "chapter=23"
 		}
 		{
@@ -1136,7 +1127,6 @@
 			 "text" : "Great, lets go find the treasure!"
 		    },
 		]
-		"nextAction" : 2,
 		"nextActionParams" : 27
 		}
 		{
@@ -1187,8 +1177,7 @@
 			 "text" : "Just watch me!"
 		    },
 		]
-		"nextAction" : 3,
-		"nextActionParams" : -99
+		"nextAction" : 3,		
 		}
 	]
 }
