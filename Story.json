@@ -161,6 +161,7 @@
 		     },
 	 	  
 		  ],
+		 "nextAction" : 1,
 		 "nextActionParams" : 4
 		},
 
@@ -244,6 +245,7 @@
 			 "text":"Thank you Maria, or should I say 'gracias'"
 		     },
 		 ]
+		"nextAction" : 1,
 		"nextActionParams" : 5
 		},
 		{
@@ -521,6 +523,7 @@
 			 "text" : "Never mind that, finding the treasure is more important, lets go talk to him."
 		    },
 		]
+		"nextAction" : 1,
 		"nextActionParams" : 12
 		}
 		{
@@ -635,7 +638,8 @@
 			 "from" : 11,
 			 "text" : "Head towards the beach, when you see a cavern on your left you will have reached your destination."
 		    },
-		]	
+		]
+		"nextAction" : 1,
 		"nextActionParams" : 15
 		}
 		{
@@ -712,7 +716,8 @@
 			 "from" : 666,
 			 "text" : "Lets go there."
 		    },
-		]	
+		]
+		"nextAction" : 1,
 		"nextActionParams" : 17
 		}	
 		{
@@ -787,7 +792,8 @@
 			 "text" : "The only part I know about is in a creek not far from here, follow the road sur, you can't miss it."
 		    },
 
-		]	
+		]
+		"nextAction" : 1,
 		"nextActionParams" : 19
 		}
 		{
@@ -889,7 +895,8 @@
 			 "from" : 1,
 			 "text" : "Correcta."
 		    },			
-		]		
+		]
+		"nextAction" : 1,
 		"nextActionParams" : 21
 		}
 		{
@@ -991,6 +998,7 @@
 			 "text" : "Gracias."
 		    },				
 		]
+		"nextAction" : 1,
 		"nextActionParams" : "chapter=23"
 		}
 		{
@@ -1127,6 +1135,7 @@
 			 "text" : "Great, lets go find the treasure!"
 		    },
 		]
+		"nextAction" : 1,
 		"nextActionParams" : 27
 		}
 		{
@@ -1177,7 +1186,8 @@
 			 "text" : "Just watch me!"
 		    },
 		]
-		"nextAction" : 3,		
+		"nextAction" : 3,
+		"nextActionParams" : -99
 		}
 	]
 }
