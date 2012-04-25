@@ -94,7 +94,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"No hay problema. First of all you should know that {ranWord} means {ranSynonym}. Got that?"
+			 "text":"No hay problema. First of all you should know that {word:word} means {word:synonym}. Got that?"
 		     },
 	 	     {
 			 "from" : 666,
@@ -102,7 +102,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"Well of course you should know that {ranWord} means {ranSynonym}."
+			 "text":"Well of course you should know that {word:word} means {word:synonym}."
 		     },
 		     {
 			 "from" : 666,
@@ -110,7 +110,7 @@
 		     },
 		     {
 			 "from" : 3,
-			 "text":"Every self respecting traveller should know that {ranWord} means {ranSynonym}."
+			 "text":"Every self respecting traveller should know that {word:word} means {word:synonym}."
 		     },
 		     {
 			 "from" : 666,
@@ -213,7 +213,7 @@
 		     },
 		     {
 			 "from" : 5,
-			 "text":"First of all you need to know {ranWord} which means {ranSynonym}. Will you remeber that?"
+			 "text":"First of all you need to know {word:word} which means {word:synonym}. Will you remeber that?"
 		     },
 		     {
 			 "from" : 666,
@@ -221,7 +221,7 @@
 		     },
 		     {
 			 "from" : 5,
-			 "text":"Bueno. Now, you definitely need to remember that {ranWord} which means {ranSynonym}."
+			 "text":"Bueno. Now, you definitely need to remember that {word:word} which means {word:synonym}."
 		     },
 		     {
 			 "from" : 666,
@@ -229,7 +229,7 @@
 		     },
 		     {
 			 "from" : 5,
-			 "text":"Finally you should remember that {ranWord} which means {ranSynonym}, remember that and you will go far!"
+			 "text":"Finally you should remember that {word:word} which means {word:synonym}, remember that and you will go far!"
 		     },
 		     {
 			 "from" : 666,
@@ -393,7 +393,7 @@
 		    },
 		    {
 			 "from" : 8,
-			 "text" : "You may need to know that {ranWord} means {ranSynonym}"
+			 "text" : "You may need to know that {word:word} means {word:synonym}"
 		    }
 		    {
 			 "from" : 666,
@@ -401,7 +401,7 @@
 		    }
 			{
 			 "from" : 8,
-			 "text" : "Anything else? Thats just the beginning but since you're so arrogant, I'll only tell you that {ranWord} means {ranSynonym} and now you must play this game."
+			 "text" : "Anything else? Thats just the beginning but since you're so arrogant, I'll only tell you that {word:word} means {ranSynonym} and now you must play this game."
 		    }
 		]
 		"nextAction" : 1,
@@ -436,7 +436,7 @@
 		    },
 		    {
 			 "from" : 9,
-			 "text" : "I have an idea but you're Spanish is needing in improvement, remember that {ranWord} means {ranSynonym}"
+			 "text" : "I have an idea but you're Spanish is needing in improvement, remember that {word:word} means {word:synonym}"
 		    },
 		    {
 			 "from" : 666,
