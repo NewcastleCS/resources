@@ -151,9 +151,17 @@
                 {
                     "from": 4,
                     "text": "That casa, sorry I mean house over there."
+                },
+    			{
+                    "from": 666,
+                    "text": "Hmm, this language stuff is quite hard, any chance you could test me on some?."
+                },
+				{
+                    "from": 666,
+                    "text": "No problema."
                 }
             ],
-            "nextAction": 1,
+            "nextAction": 3,
             "nextActionParams": 4
         },
         {
@@ -231,10 +239,14 @@
                 },
                 {
                     "from": 666,
-                    "text": "Thank you Maria, or should I say 'gracias'"
+                    "text": "Thank you Maria, or should I say 'graciass'"
+                },
+				{
+                    "from": 666,
+                    "text": "'Graciass'? That is terrible grammar! Hmmm, I thought you were ready, try this before you go."
                 }
             ],
-            "nextAction": 1,
+            "nextAction": 3,
             "nextActionParams": 5
         },
         {
@@ -386,7 +398,7 @@
                     "text": "Anything else? Thats just the beginning but since you're so arrogant, I'll only tell you that {word:word} means {ranSynonym} and now you must play this game."
                 }
             ],
-            "nextAction": 1,
+            "nextAction": 2,
             "nextActionParams": 9
         },
         {
@@ -421,6 +433,10 @@
                 {
                     "from": 666,
                     "text": "muchas gracias"
+                },
+				{
+                    "from": 9,
+                    "text": "Are you sure you got that? Try this to make sure."
                 }
             ],
             "nextAction": 2,
@@ -495,42 +511,29 @@
                 {
                     "from": 666,
                     "text": "Never mind that, finding the treasure is more important, lets go talk to him."
-                }
-            ],
-            "nextAction": 1,
-            "nextActionParams": 12
-        },
-        {
-            "id": 12,
-            "name": "chapter 3 - Finding old Smee",
-            "SetIn": -1,
-            "characters": [
-                {
-                    "CharID": 1,
-                    "CharacterName": "Pirate Helper",
-                    "CharacterImage": 2130837528
                 },
-                {
-                    "CharID": 666,
-                    "CharacterName": "ME",
-                    "CharacterImage": 2130837507
-                }
-            ],
-            "dialog": [
-                {
-                    "from": 666,
-                    "text": "Is that them over there??"
-                },
-                {
+				{
                     "from": 1,
-                    "text": "Oh NO! Thats Old Smee and it looks like thos Bandits are about to finish him off."
+                    "text": "Hmm, he isn't the biggest fan of english speaking travellers ever since this chap David ran into him?"
                 },
-                {
+				{
                     "from": 666,
-                    "text": "We must stop them, it's my only hope."
+                    "text": "Eek, what happened?"
+                },
+				{
+                    "from": 1,
+                    "text": "Lets just say he's sleeping with the los peces."
+                },
+				{
+                    "from": 1,
+                    "text": "What should I do?"
+                },
+				{
+                    "from": 1,
+                    "text": "Let me make sure your Spanish has improved before we go."
                 }
             ],
-            "nextAction": 1,
+            "nextAction": 2,
             "nextActionParams": 13
         },
         {
@@ -552,10 +555,10 @@
             "dialog": [
                 {
                     "from": 666,
-                    "text": "Detener! I need to talk to that man."
+                    "text": "Oh NO! Thats Old Smee and it looks like thos Bandits are about to finish him off. Detener! I need to talk to that man."
                 },
                 {
-                    "from": 1,
+                    "from": 10,
                     "text": "Detener? Haha you are too late little child, we will kill him and you!"
                 }
             ],
@@ -606,6 +609,10 @@
                 {
                     "from": 11,
                     "text": "Head towards the beach, when you see a cavern on your left you will have reached your destination."
+                },
+				{
+                    "from": 11,
+                    "text": "As I'm sure you're aware, I don't take kind to english speakers, let me make sure my trust isn't misplaced."
                 }
             ],
             "nextAction": 1,
@@ -680,6 +687,26 @@
                 {
                     "from": 666,
                     "text": "Lets go there."
+                },
+				{
+                    "from": 1,
+                    "text": "Not so fast young one, Little Ricky doe-"
+                },
+				{
+                    "from": 666,
+                    "text": "Little Ricky? Hahahahah."
+                },
+				{
+                    "from": 1,
+                    "text": "Si, Poco Ricky, the greatest wrestler on the island."
+                },
+				{
+                    "from": 666,
+                    "text": "Yikes!"
+                },
+				{
+                    "from": 1,
+                    "text": "Yikes is right {character:name}, we best make sure you're ready to meet him."
                 }
             ],
             "nextAction": 1,
@@ -749,10 +776,35 @@
                 },
                 {
                     "from": 12,
-                    "text": "The only part I know about is in a creek not far from here, follow the road sur, you can't miss it."
+                    "text": "The only part I know about is in a creek not far from here, follow the road how we say 'sur', you can't miss it."
+                },
+				{
+                    "from": 666,
+                    "text": "Before I leave, could you teach me some Spanish?"
+                },
+				{
+                    "from": 12,
+                    "text": "Of course, {word:word} means {word:synonym}"
+                },
+				{
+                    "from": 666,
+                    "text": "Cool!"
+                },
+				{
+                    "from": 12,
+                    "text": "And {word:word} means {word:synonym}."
+                },
+				{
+                    "from": 12,
+                    "text": "It all makes sense!"
+                },
+				{
+                    "from": 666,
+                    "text": "I hope you're not being sarcastic, try this!"
                 }
+				
             ],
-            "nextAction": 1,
+            "nextAction": 2,
             "nextActionParams": 19
         },
         {
@@ -847,7 +899,7 @@
                 },
                 {
                     "from": 1,
-                    "text": "Correcta."
+                    "text": "Correcta. Could we have another game? I'm really enjoying these!"
                 }
             ],
             "nextAction": 1,
@@ -895,7 +947,7 @@
                     "text": "Just do the puzzle."
                 }
             ],
-            "nextAction": 1,
+            "nextAction": 3,
             "nextActionParams": 22
         },
         {
@@ -946,9 +998,33 @@
                 {
                     "from": 666,
                     "text": "Gracias."
+                },
+				{
+                    "from": 7,
+                    "text": "Is there any way I can equip you before you journey out?"
+                },
+				{
+                    "from": 666,
+                    "text": "Only with language Rico, only with language."
+                },
+				{
+                    "from": 7,
+                    "text": "If thats the case, then you should know that {word:word} means {word:synonym}"
+                },
+				{
+                    "from": 666,
+                    "text": "Gotcha."
+                },
+				{
+                    "from": 7,
+                    "text": "Also {word:word} means {word:synonym}."
+                },
+				{
+                    "from": 666,
+                    "text": "Hmmm, best make sure my Spanish is up to scratch before I leave."
                 }
-            ],
-            "nextAction": 1,
+			],
+            "nextAction": 3,
             "nextActionParams": "chapter=23"
         },
         {
@@ -1076,7 +1152,7 @@
                 },
                 {
                     "from": 666,
-                    "text": "Great, lets go find the treasure!"
+                    "text": "Great, lets go find the treasure while playing some hangman along the way."
                 }
             ],
             "nextAction": 1,
