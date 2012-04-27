@@ -20,7 +20,7 @@
             "dialog": [
             	 {
                     "from": 666,
-                    "text": "Hola, character\u003Aname puedo ayudar?"
+                    "text": "Hola, character\u00A7name puedo ayudar?"
                 },
                 {
                     "from": 1,
