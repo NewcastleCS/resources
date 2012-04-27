@@ -18,6 +18,10 @@
                 }
             ],
             "dialog": [
+            	 {
+                    "from": 666,
+                    "text": "Hola, {character:firstname} puedo ayudar?"
+                },
                 {
                     "from": 1,
                     "text": "Hola, te puedo ayudar?"
@@ -167,7 +171,7 @@
         {
             "id": 4,
             "name": "chapter 1 - Elder Maria's house",
-            "SetIn": 2130837511,
+            "SetIn": 2130837550,
             "characters": [
                 {
                     "CharID": 5,
@@ -289,7 +293,7 @@
         {
             "id": 6,
             "name": "chapter 1 - Talk with Rico",
-            "SetIn": -1,
+            "SetIn": 2130837552,
             "characters": [
                 {
                     "CharID": 7,
@@ -539,7 +543,7 @@
         {
             "id": 13,
             "name": "chapter 3 - Battle to save Old Smee",
-            "SetIn": -1,
+            "SetIn": 2130837580,
             "characters": [
                 {
                     "CharID": 10,
@@ -568,7 +572,7 @@
         {
             "id": 14,
             "name": "chapter 3 - Talking to Old Smee",
-            "SetIn": -1,
+            "SetIn": 2130837580,
             "characters": [
                 {
                     "CharID": 11,
@@ -715,7 +719,7 @@
         {
             "id": 17,
             "name": "chapter 4 - Little Ricky's house",
-            "SetIn": -1,
+            "SetIn": 2130837560,
             "characters": [
                 {
                     "CharID": 1,
@@ -748,7 +752,7 @@
         {
             "id": 18,
             "name": "chapter 4 - Little Ricky's house",
-            "SetIn": -1,
+            "SetIn": 2130837560,
             "characters": [
                 {
                     "CharID": 12,
@@ -810,7 +814,7 @@
         {
             "id": 19,
             "name": "chapter 5 - Creek for third part of seal",
-            "SetIn": -1,
+            "SetIn": 2130837548,
             "characters": [
                 {
                     "CharID": 1,
@@ -839,7 +843,7 @@
         {
             "id": 20,
             "name": "chapter 4 - Lead up to Bandits Lair",
-            "SetIn": -1,
+            "SetIn": 2130837548,
             "characters": [
                 {
                     "CharID": 1,
@@ -908,7 +912,7 @@
         {
             "id": 21,
             "name": "chapter 4 - Ricos forge",
-            "SetIn": -1,
+            "SetIn": 2130837552,
             "characters": [
                 {
                     "CharID": 1,
@@ -953,7 +957,7 @@
         {
             "id": 22,
             "name": "chapter 4 - Ricos forge",
-            "SetIn": -1,
+            "SetIn": 2130837552,
             "characters": [
                 {
                     "CharID": 7,
@@ -1025,12 +1029,12 @@
                 }
 			],
             "nextAction": 3,
-            "nextActionParams": "chapter=23"
+            "nextActionParams": 23
         },
         {
             "id": 23,
             "name": "chapter 5 - Bandits hideout inside",
-            "SetIn": -1,
+            "SetIn": 2130837554,
             "characters": [
                 {
                     "CharID": 1,
@@ -1087,7 +1091,7 @@
         {
             "id": 25,
             "name": "chapter 5 - Bandits hideout inside",
-            "SetIn": -1,
+            "SetIn": 2130837554,
             "characters": [
                 {
                     "CharID": 10,
@@ -1124,7 +1128,7 @@
         {
             "id": 26,
             "name": "chapter 5 - Bandits hideout inside",
-            "SetIn": -1,
+            "SetIn": 2130837554,
             "characters": [
                 {
                     "CharID": 1,
@@ -1161,7 +1165,7 @@
         {
             "id": 27,
             "name": "chapter 6 - Found the treasure",
-            "SetIn": -1,
+            "SetIn": 2130837551,
             "characters": [
                 {
                     "CharID": 1,
