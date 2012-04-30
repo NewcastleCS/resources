@@ -293,7 +293,7 @@
         {
             "id": 6,
             "name": "chapter 1 - Talk with Rico",
-            "SetIn": 0x7F020030,
+            "SetIn": 0x7f020029,
             "characters": [
                 {
                     "CharID": 7,
